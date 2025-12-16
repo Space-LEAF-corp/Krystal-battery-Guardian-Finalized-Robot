@@ -1,0 +1,21 @@
+battery:
+  baseline_capacity_ah: 2.5
+  voltage_v: 1.5
+  growth_per_year_pct: 12.0
+  resistance_initial_ohm: 1.0
+  resistance_floor_ohm: 0.05
+  coil_wear_rate_pct_per_year: 0.35
+  platinum_film_conductivity_gain_pct: 3.0
+
+mesh:
+  efficiency_min_pct: 95.0
+  efficiency_max_pct: 98.0
+  kinetic_gain_pct: 6.0
+  heal_latency_ms: 3
+
+robot:
+  motion_entropy_seed: 42
+  mag_track_radius_m: 0.35
+  max_core_speed_mps: 0.8
+  thermal_profile_c: [ -30, 85 ]
+  firewall_base_entropy_bits: 128
